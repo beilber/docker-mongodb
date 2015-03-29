@@ -47,3 +47,4 @@ _You will need to set up nat port forwarding with:_
     VBoxManage modifyvm "boot2docker-vm" --natpf1 "guestmongodb,tcp,127.0.0.1,27017,,27017"
 
 This will allow you to connect to your mongo container with the standard `mongo` commands.
+# docker-mongodb
